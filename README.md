@@ -12,6 +12,7 @@ A centralized collector for collecting host reachable metric.<br/>
 	"value": 1,
 	"step": 10
 },
+...
 {
 	"endpoint": "192.168.69.199",
 	"metric": "host.net.reachable",
@@ -19,6 +20,6 @@ A centralized collector for collecting host reachable metric.<br/>
 	"timestamp": 1599059859,
 	"value": 1,
 	"step": 10
-}...
+}
 ]
 ```
