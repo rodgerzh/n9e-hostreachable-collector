@@ -50,3 +50,8 @@ config/cfg.json
 }
 
 ```
+
+### 主机可达性探测原理
+```
+采用Java中的地址可达探测方法： InetAddress.isReachable() , 此方法的机制请参考Java API文档。
+```
