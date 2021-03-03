@@ -25,5 +25,7 @@ A centralized collector for collecting host reachable metric.<br/>
 ]
 ```
 ### 启动
+```
 cd script
 ./start-collector.sh
+```
