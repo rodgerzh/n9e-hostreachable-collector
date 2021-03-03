@@ -1,6 +1,6 @@
 # n9e-hostreachable-collector
 ### 介绍
-一个集中式的采集器，用于采集n9e中的endpoint表中的主机是否网络通达。<br/>
+一个集中式的采集器，用于采集n9e(Nightingale)中的endpoint表中的主机是否网络通达。<br/>
 A centralized collector for collecting host reachable metric.<br/>
 
 按以下格式将采集到的指标通过HTTP POST push到monapi的/api/transfer/push。
