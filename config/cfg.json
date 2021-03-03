@@ -1,0 +1,15 @@
+{
+	"collectorId":"demo.1",
+	"monapiUrl": "http://192.61.69.200:80",
+	"monapiUserName": "user",
+	"monapiPassword": "userdemima",
+	"detecHostReachableTimeout":6000,
+	"batchDetecReachableIntervalMilliSeconds":20000,
+	"reportStep":20,
+	"syncEndpointsIntervalSeconds":120,
+	"meticName":"host.net.reachable",
+	"useEndpointMatch": true,
+	"endpointMatchRegExp": "^((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})(\\.((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})){3}$",
+	"useNodeNameMatch": false,
+	"nodeNameMatchRegExp": ".*服务器.*"
+}
